@@ -1,0 +1,24 @@
+{
+	"name": "configuploader",
+	"version": "1.0.0",
+	"description": "A script to upload files to an ssh Server",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bgfxc4/ConfigUploader.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/bgfxc4/ConfigUploader/issues"
+	},
+	"homepage": "https://github.com/bgfxc4/ConfigUploader#readme",
+	"dependencies": {
+		"fs": "0.0.1-security",
+		"sftp-upload": "^1.0.2"
+	}
+}
